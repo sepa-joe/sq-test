@@ -2,6 +2,8 @@
 // https://karma-runner.github.io/1.0/config/configuration-file.html
 
 module.exports = function (config) {
+
+  // this is  acomment and this comment is a large comment so that means that it is large and as it is large it should trigger a long line warning, or at least I would hope that it would trigger off the warning, or I will need to look at another way of seeing this fail.
   config.set({
     basePath: '',
     frameworks: ['jasmine', '@angular-devkit/build-angular'],
